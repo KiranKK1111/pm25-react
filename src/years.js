@@ -1,0 +1,1 @@
+export const YEARS = Array.from({ length: 2022 - 1970 + 1 }, (_, i) => 1970 + i);
