@@ -1,0 +1,3 @@
+.pm25-overlay {
+  image-rendering: pixelated;   /* or 'crisp-edges' */
+}
