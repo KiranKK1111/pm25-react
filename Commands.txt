@@ -1,0 +1,7 @@
+python chunk_reproject_3857_tiles.py Globio/MSA/Globio4_TerrestrialMSA_10sec_2050_SSP1RCP26/TerrestrialMSA_2050_SSP1RCP26_World.tif ./Globio_3857_png_tiles/SSP1 --tile_size 2048 --resolution 100
+
+python chunk_reproject_3857_tiles.py Globio/MSA/Globio4_TerrestrialMSA_10sec_2050_SSP3RCP60/TerrestrialMSA_2050_SSP3RCP6_World.tif ./Globio_3857_png_tiles/SSP3 --tile_size 2048 --resolution 100
+
+python chunk_reproject_3857_tiles.py Globio/MSA/Globio4_TerrestrialMSA_10sec_2050_SSP5RCP85/TerrestrialMSA_2050_SSP5RCP85_World.tif ./Globio_3857_png_tiles/SSP5 --tile_size 2048 --resolution 100
+
+python globio_lu_to_png.py D:\Projects\geo-map-be\Globio\LU D:\Projects\geo-map-be\Globio\LU\data --pixel-size 5000
